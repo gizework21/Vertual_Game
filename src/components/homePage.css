@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Vedana&display=swap');
+
+.welcome-message {
+    background: linear-gradient(to bottom, #3bb19b, #3bb19baf);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff; /* set the text color to white for better visibility */
+  }
+  @font-face {
+    font-family: 'Ticketing';
+     src: url('../TICKETING/Ticketing.ttf'); 
+    /*    src: url('../venus\ rising\ rg.otf'); */
+
+  }
+  
+ 
+  
+  /* Add more styles as needed */
+  .welcome-message h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .welcome-message p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+  }
+  
+  .card-itself {
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2); 
+    background-color:  rgba(202, 212, 223, 0.952);
+
+   /* Update the box shadow */
+  }
+  
+  
+  .card-img-top {
+    height: 200px; /* Adjust the image height as needed */
+    object-fit: cover;
+  }
+  
+  .section-header-2{
+    text-align: center;
+    color: rgba(248, 190, 30, 0.918);
+    font-weight: bold;
+    font-size: 40px; 
+    /* color: #9f3e14; */ 
+    border-radius: 10px;
+  }
+ 
+  
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .section-header {
+  text-align: center;
+  background-color: #61d23f;
+  color: rgb(6, 59, 102);
+  padding: 10px;
+  font-weight: bold;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  color: rgb(226, 171, 126);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: 'Venarda', sans-serif; /* Specify Vedana font and fallback to sans-serif */
+}
+.greenButton {
+  background-color: green;
+}
+#addButton {
+   background-Color :black;
+    color : white;
+    font-Weight : bold;}
+    
+#label {
+       color : white;
+       font-Weight : bold;}
+/* RadioGrid.css */
+.radio-container {
+  margin-left: 50%;
+
+}
+
+.radio-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-button {
+  margin: 5px;
+}
+
+.selected {
+  background-color: rgb(255,165, 0);
+}
+
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulsating-image {
+  animation: pulse 2s ease-in-out infinite;
+}
+.right-content {
+  margin-right: 20%;
+}
+.section-paragraph {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+

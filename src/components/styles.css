@@ -1,0 +1,7 @@
+/* styles.css or similar */
+@media print {
+    .no-print {
+      display: none !important;
+    }
+  }
+  
